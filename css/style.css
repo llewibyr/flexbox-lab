@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-self: center;
-    align-content: 
+    
   }
   #destinations{
     display: flex;
@@ -69,9 +69,7 @@
   
   main {
     display: flex;
-    justify-content: center; 
-    gap: 40px;
-    flex-wrap: wrap;
+    gap: 20px;
     background-color: white;
     padding: 32px 72px;
   }
@@ -94,14 +92,13 @@
   }
   
   .card-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
     font-size: 14px;
   }
   
   .card-footer * {
-    display: inline-flex;
-    justify-content: space-around; 
-    flex-direction: row;
-    gap: 10px;
     margin-top: 8px;
     
   }
@@ -143,23 +140,19 @@
     column-count: 5;
     gap: 15px;
   }
-  main{
+  
+  
+  .card {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  main{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .card{
-    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
   }
-  flexbox-container {
-    display: flex-start;
-    
+ 
+  #sort {
+    display: flex;
+  }
+
+  #filter {
+    display: flex;
   }
